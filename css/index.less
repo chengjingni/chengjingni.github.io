@@ -42,6 +42,7 @@ html {
               font-size: 28px;
               font-weight: 900;
               color: #00b673;
+              text-shadow: 1px 2px 0 #fff,-1px -2px 0 #fff;
             }
           }
           .search {
@@ -70,6 +71,29 @@ html {
               padding-left: 15px;
             }
           }
+        }
+      }
+      .sidebar {
+        position: fixed;
+        top: 105px;
+        right: 0;
+        .sidebar-item {
+          width: 60px;
+          height: 60px;
+          text-align: center;
+          color: #1296db;
+          background-color: #fff;
+          border-bottom: 1px solid #bec2c1;
+          .iconfont {
+            font-size: 30px;
+          }
+        }
+        .sidebar-item.sidebar-hide {
+          width: 60px;
+          height: 30px;
+          background-color: #1296db;
+          color: #fff;
+          line-height: 30px;
         }
       }
       .content-wrap {
@@ -184,6 +208,12 @@ html {
                 }
               }
             }
+          }
+        }
+        .page-register {
+          img {
+            width: 100%;
+            overflow: hidden;
           }
         }
         .footer {

@@ -3,6 +3,7 @@
  */
 $(function () {
     tabSwitch();
+    register();
 });
 function tabSwitch() {
     // tab栏切换 点击导航栏li标签 相应的main中的li显示
@@ -25,4 +26,12 @@ function tabSwitch() {
             $(mainLis[navIndex]).addClass('main-active');
         }
     }
+}
+function register() {
+    $('.header>.login-module>ul>li>.register').on('click', function () {
+        console.log(1);
+        $('.content-wrap>.nav-item-details').hide();
+        $('.content-wrap>.page-register').html('<img src="imgs/07.png" alt="">');
+    });
+
 }

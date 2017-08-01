@@ -38,6 +38,7 @@ html body .box-wrap .header .header-content .logo a {
   font-size: 28px;
   font-weight: 900;
   color: #00b673;
+  text-shadow: 1px 2px 0 #fff, -1px -2px 0 #fff;
 }
 html body .box-wrap .header .header-content .search {
   float: right;
@@ -64,6 +65,29 @@ html body .box-wrap .header .header-content .search input {
   height: 40px;
   border-radius: 15px;
   padding-left: 15px;
+}
+html body .box-wrap .sidebar {
+  position: fixed;
+  top: 105px;
+  right: 0;
+}
+html body .box-wrap .sidebar .sidebar-item {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  color: #1296db;
+  background-color: #fff;
+  border-bottom: 1px solid #bec2c1;
+}
+html body .box-wrap .sidebar .sidebar-item .iconfont {
+  font-size: 30px;
+}
+html body .box-wrap .sidebar .sidebar-item.sidebar-hide {
+  width: 60px;
+  height: 30px;
+  background-color: #1296db;
+  color: #fff;
+  line-height: 30px;
 }
 html body .box-wrap .content-wrap {
   width: 80%;
@@ -163,6 +187,10 @@ html body .box-wrap .content-wrap .nav-item-details .page5.details-item .smart .
   position: absolute;
   top: 45px;
   left: 69px;
+}
+html body .box-wrap .content-wrap .page-register img {
+  width: 100%;
+  overflow: hidden;
 }
 html body .box-wrap .content-wrap .footer {
   width: 80%;

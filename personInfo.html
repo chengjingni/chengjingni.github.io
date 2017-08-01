@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        body {
+            position: relative;
+            width: 100%;
+            min-width: 1250px;
+            background: url("imgs/bg.jpg") no-repeat center center fixed;
+            -webkit-background-size: auto 100%;
+            background-size: auto 100%;
+        }
+
+        .wrap {
+            width: 80%;
+            /*height: 600px;*/
+            margin: 0 auto;
+            background-color: #fff;
+        }
+
+        .wrap .left {
+            float: left;
+            width: 20%;
+            padding-left: 20px;
+            box-sizing: border-box;
+            /*height: 600px;*/
+            /*border-right: 1px solid skyblue;*/
+        }
+
+        .wrap .right {
+            float: right;
+            width: 80%;
+            /*height: 600px;*/
+        }
+
+        .wrap .left > div {
+            margin: 15px 0;
+        }
+
+        .wrap .left li {
+            padding-left: 10px;
+            line-height: 24px;
+        }
+
+        .wrap .right img {
+            width: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap clearfix">
+    <div class="left">
+        <h2>个人中心</h2>
+        <div class="proceeding">
+            <p>我的办件</p>
+            <ul>
+                <li class="proceeding-item">待预审</li>
+                <li class="proceeding-item">预审通过</li>
+                <li class="proceeding-item">预审不通过</li>
+                <li class="proceeding-item">已受理</li>
+                <li class="proceeding-item">暂存件</li>
+                <li class="proceeding-item">办件评价</li>
+                <li class="proceeding-item">我要投诉</li>
+            </ul>
+        </div>
+        <div class="life">
+            <p>生活查询</p>
+            <ul>
+                <li class="life-item">公积金</li>
+                <li class="life-item">社保</li>
+                <li class="life-item">驾照</li>
+                <li class="life-item">车辆</li>
+                <li class="life-item">水费</li>
+                <li class="life-item">电费</li>
+                <li class="life-item">燃气费</li>
+                <li class="life-item">话费</li>
+            </ul>
+        </div>
+        <div class="myInfo">
+            <p>个人信息</p>
+            <ul>
+                <li class="myInfo-item">个人资料</li>
+                <li class="myInfo-item">个人账户</li>
+                <li class="myInfo-item">我的应用</li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <img src="imgs/huafei.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>
